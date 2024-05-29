@@ -14,7 +14,7 @@ const ExpenditureList = ({ itemList, selectedMonth }) => {
 };
 
 const StListSection = styled.section`
-  border: 5px solid #ffe978;
+  border: 2px solid #ffe978;
   border-radius: 15px;
   padding: 20px;
 
@@ -26,6 +26,9 @@ const StListSection = styled.section`
 const StBlankDiv = styled.div`
   text-align: center;
   font-size: 15px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #000000;
   background-color: #feffee;
   border-radius: 8px;

@@ -81,7 +81,7 @@ const InputForm = ({ itemList, setItemList }) => {
 };
 
 const StInputSection = styled.section`
-  border: 5px solid #ffe978;
+  border: 2px solid #ffe978;
   border-radius: 16px;
   padding: 20px;
 
@@ -96,6 +96,9 @@ const StDiv = styled.div`
   min-width: 120px;
 
   label {
+    font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     font-size: 14px;
     margin-bottom: 5px;
   }
@@ -105,6 +108,9 @@ const StDiv = styled.div`
     border: 1px solid #ffe978;
     border-radius: 4px;
     font-size: 14px;
+    font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
 `;
 
@@ -116,6 +122,9 @@ const StInputButton = styled.button`
   border: none;
   border-radius: 4px;
   font-size: 14px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   cursor: pointer;
   margin-top: auto;
   margin-bottom: 2px;

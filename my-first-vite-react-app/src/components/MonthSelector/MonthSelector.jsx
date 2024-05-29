@@ -21,7 +21,7 @@ const MonthSelector = ({ selectedMonth, setSelectedMonth }) => {
 };
 
 const StMonthsSection = styled.section`
-  border: 5px solid #ffe978;
+  border: 2px solid #ffe978;
   border-radius: 16px;
   padding: 20px;
 
@@ -33,11 +33,13 @@ const StMonthsSection = styled.section`
 
 const StMonthButton = styled.button`
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-style: normal;
   height: 50px;
   padding: 10px;
-  width: 52px;
+  width: 50px;
 
   display: flex;
   justify-content: center;

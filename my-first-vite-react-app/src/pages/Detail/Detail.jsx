@@ -125,7 +125,7 @@ const Detail = ({ itemList, setItemList }) => {
 
 const StDetailWrapper = styled.div`
   padding: 20px;
-  border: 5px solid #ffe978;
+  border: 2px solid #ffe978;
   border-radius: 16px;
 
   display: flex;
@@ -139,14 +139,20 @@ const StDiv = styled.div`
 
   label {
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
 
   input {
     padding: 10px;
     border: 1px solid #ffe978;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
 
   #detail-date {
@@ -166,7 +172,10 @@ const StDetailPageButton = styled.button`
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: bold;
 
   &:hover {

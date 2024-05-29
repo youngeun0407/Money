@@ -58,6 +58,9 @@ const StItemContent = styled.div`
     text-overflow: ellipsis;
     max-width: 100%;
     font-size: 16px;
+    font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     color:  #000000;
     font-weight: 600;
   }
